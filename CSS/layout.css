@@ -1,0 +1,56 @@
+article {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+div.a {
+  display: table;
+  height: 75px;
+  width: 480px;
+  background-color: rgb(255, 221, 221);
+}
+div.b {
+  display: table;
+  height: 150px;
+  width: 480px;
+  background-color: rgb(255, 160, 160);
+}
+div.c, div.d {
+  display: table;
+  height: 125px;
+  width: 480px;
+}
+div.c{
+  display: table;
+  background-color: rgb(255, 125, 125)
+}
+div.d{
+  display: table;
+  background-color: rgb(255, 75, 75)
+}
+div.e, div.f, div.g, div.h {
+  height: 250px;
+  width: 240px;
+  display: table;;
+}
+div.e{
+  background-color: rgb(255, 222, 200);
+}
+div.f{
+  background-color: rgb(255, 183, 134);
+}
+div.g{
+  background-color: rgb(255, 147, 75);
+}
+div.h{
+  background-color: rgb(255, 113, 19);
+}
+div.i {
+  display: table;
+  height: 80px;
+  width: 480px;
+  background-color: rgb(255, 250, 173);
+}
+div.squish {
+  display: flex;
+}
